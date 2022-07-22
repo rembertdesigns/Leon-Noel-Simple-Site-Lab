@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+body{
+    line-height: 1.7;
+    color: white;
+    background: #84cbeb;
+    font-family: 'Nunito Sans', sans-serif;
+}
+div{
+    border: 5px solid #51c63a;
+    margin: 20px auto;
+    max-width: 60%;
+    padding: 40px;
+    width: 800px;
+}
+
+div h1, div ul{
+    text-align: center;
+}
+
+div ul{
+    list-style: none;
+}
+
+div ul li{
+    display: inline-block;
+    /* padding: 5px; */
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.white{
+    padding-right: 5px;
+    color: white;
+}
+
+div ul li a{
+    text-decoration: underline;
+}
+
+div ul li a{
+    color: #51c63a;
+    text-decoration: none;
+}
+
+div ul li + li a{
+    border-left: 2px solid #3c4247;
+    padding-left:5px;
+}
+
+
+img{
+    width: 200px;
+    height: auto;
+    float: right;
+    padding: 20px
+}
